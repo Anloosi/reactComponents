@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: darkslategray;
+  color: white;
 }
 
 code {
@@ -50,4 +52,42 @@ code {
   to {
     transform: rotate(360deg);
   }
+}
+.animalcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  width: 20vh;
+  height: 50vh;
+  margin: 1vw;
+  line-height: 5px;
+  position: auto;
+
+}
+  .animalimg {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.news {
+  background-color: black;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  font-size: 1rem;
+  background-color: dimgray;
+}
+.field{
+  display: flex;
+  border: solid red 2px;
+  height: 80vh;
+  margin-top: 9vh;
+  
 }
